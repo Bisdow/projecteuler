@@ -1,4 +1,4 @@
-package multiplesofxy
+package problem001multiplesofxy
 
 import (
 	"fmt"

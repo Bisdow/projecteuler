@@ -29,7 +29,6 @@ import (
 	"github.com/Bisdow/projecteuler/longestcollatzsequence"
 	"github.com/Bisdow/projecteuler/maximumpathsumi"
 	"github.com/Bisdow/projecteuler/maximumpathsumii"
-	"github.com/Bisdow/projecteuler/multiplesofxy"
 	"github.com/Bisdow/projecteuler/namesscores"
 	"github.com/Bisdow/projecteuler/nonabundantsums"
 	"github.com/Bisdow/projecteuler/numberlettercounts"
@@ -37,6 +36,7 @@ import (
 	"github.com/Bisdow/projecteuler/pandigitalproducts"
 	"github.com/Bisdow/projecteuler/pentagonnumbers"
 	"github.com/Bisdow/projecteuler/powerdigitsum"
+	problem001 "github.com/Bisdow/projecteuler/problem001multiplesofxy"
 	"github.com/Bisdow/projecteuler/quadraticprimes"
 	"github.com/Bisdow/projecteuler/reciprocalcycles"
 	"github.com/Bisdow/projecteuler/smallestmultiple"
@@ -55,7 +55,7 @@ type EulerProblem struct {
 
 func getEulerProblems() []EulerProblem {
 	return []EulerProblem{
-		{number: 1, name: "Multiples of 3 and 5", findSolution: multiplesofxy.ExecProjectEulerProblem},
+		{number: 1, name: "Multiples of 3 and 5", findSolution: problem001.ExecProjectEulerProblem},
 		{number: 2, name: "Even Fibonacci number", findSolution: evenfibonaccinumbers.ExecProjectEulerProblem},
 		{number: 2, name: "Even Fibonacci number", findSolution: evenfibonaccinumbers.ExecProjectEulerProblem},
 		{number: 3, name: "Largest Prim Factor", findSolution: largestprimefactor.ExecProjectEulerProblem},

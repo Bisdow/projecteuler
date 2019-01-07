@@ -1,4 +1,4 @@
-package multiplesofxy
+package problem001multiplesofxy
 
 import "testing"
 
@@ -49,6 +49,6 @@ func BenchmarkSumOfMultiples10000(b *testing.B) {
 
 func checkInt(t *testing.T, call string, result int, expected int) {
 	if result != expected {
-		t.Error("Expected", expected, " - Result", result)
+		t.Error(call, " - Expected", expected, " - Result", result)
 	}
 }
