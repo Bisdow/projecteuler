@@ -4,8 +4,6 @@ import (
 	"math"
 )
 
-const targetSum = 1000
-
 func ExecProjectEulerProblem() {
 	const target = 1000
 	println(SpecialPythagoreanTriplet(target))

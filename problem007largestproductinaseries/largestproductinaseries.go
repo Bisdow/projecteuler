@@ -25,15 +25,15 @@ func LargestProductInASeries(input string, amountOfDigits int) int {
 
 func multiplyNextDigits(amountOfDigits int, str string) int {
 	var value int
-	var error error
+	var err error
 	var product = 1
 	if len(str) < amountOfDigits {
 		fmt.Println("===>> Fehler - String zu kurz für die Anzahl an Zeichen")
 		return 0
 	}
 	for i := 0; i < amountOfDigits; i++ {
-		value, error = strconv.Atoi(str[i : i+1])
-		if error != nil {
+		value, err = strconv.Atoi(str[i : i+1])
+		if err != nil {
 			fmt.Printf("Fehler bei Konvertierung Digit zu INT")
 		}
 		product *= value
