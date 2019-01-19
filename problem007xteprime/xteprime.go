@@ -1,4 +1,4 @@
-package xteprime
+package problem007xteprime
 
 import (
 	"fmt"

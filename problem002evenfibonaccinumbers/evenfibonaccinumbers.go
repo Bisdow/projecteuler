@@ -1,4 +1,4 @@
-package evenfibonaccinumbers
+package problem002evenfibonaccinumbers
 
 import (
 	"fmt"

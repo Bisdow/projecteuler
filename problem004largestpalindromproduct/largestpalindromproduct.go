@@ -1,4 +1,4 @@
-package largestpalindromproduct
+package problem004largestpalindromproduct
 
 import (
 	"fmt"

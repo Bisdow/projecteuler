@@ -1,4 +1,4 @@
-package sumsquaredifference
+package problem006sumsquaredifference
 
 import "testing"
 

@@ -16,13 +16,9 @@ import (
 	"github.com/Bisdow/projecteuler/digitfifthpowers"
 	"github.com/Bisdow/projecteuler/distinctpowers"
 	"github.com/Bisdow/projecteuler/doublebasepalindromes"
-	"github.com/Bisdow/projecteuler/evenfibonaccinumbers"
 	"github.com/Bisdow/projecteuler/factorialdigitsum"
 	"github.com/Bisdow/projecteuler/highlydivisibletriangularnumber"
-	"github.com/Bisdow/projecteuler/largestpalindromproduct"
-	"github.com/Bisdow/projecteuler/largestprimefactor"
 	"github.com/Bisdow/projecteuler/largestproductinagrid"
-	"github.com/Bisdow/projecteuler/largestproductinaseries"
 	"github.com/Bisdow/projecteuler/largesum"
 	"github.com/Bisdow/projecteuler/latticepath"
 	"github.com/Bisdow/projecteuler/lexicographicpermutations"
@@ -37,14 +33,18 @@ import (
 	"github.com/Bisdow/projecteuler/pentagonnumbers"
 	"github.com/Bisdow/projecteuler/powerdigitsum"
 	problem001 "github.com/Bisdow/projecteuler/problem001multiplesofxy"
+	"github.com/Bisdow/projecteuler/problem002evenfibonaccinumbers"
+	"github.com/Bisdow/projecteuler/problem003largestprimefactor"
+	"github.com/Bisdow/projecteuler/problem004largestpalindromproduct"
+	"github.com/Bisdow/projecteuler/problem005smallestmultiple"
+	"github.com/Bisdow/projecteuler/problem006sumsquaredifference"
+	"github.com/Bisdow/projecteuler/problem007largestproductinaseries"
+	"github.com/Bisdow/projecteuler/problem007xteprime"
+	"github.com/Bisdow/projecteuler/problem009specialpythagoreantriplet"
+	"github.com/Bisdow/projecteuler/problem010summationofprimes"
 	"github.com/Bisdow/projecteuler/quadraticprimes"
 	"github.com/Bisdow/projecteuler/reciprocalcycles"
-	"github.com/Bisdow/projecteuler/smallestmultiple"
-	"github.com/Bisdow/projecteuler/specialpythagoreantriplet"
-	"github.com/Bisdow/projecteuler/summationofprimes"
-	"github.com/Bisdow/projecteuler/sumsquaredifference"
 	"github.com/Bisdow/projecteuler/xdigitfibonaccinumber"
-	"github.com/Bisdow/projecteuler/xteprime"
 )
 
 type EulerProblem struct {
@@ -56,16 +56,16 @@ type EulerProblem struct {
 func getEulerProblems() []EulerProblem {
 	return []EulerProblem{
 		{number: 1, name: "Multiples of 3 and 5", findSolution: problem001.ExecProjectEulerProblem},
-		{number: 2, name: "Even Fibonacci number", findSolution: evenfibonaccinumbers.ExecProjectEulerProblem},
-		{number: 2, name: "Even Fibonacci number", findSolution: evenfibonaccinumbers.ExecProjectEulerProblem},
-		{number: 3, name: "Largest Prim Factor", findSolution: largestprimefactor.ExecProjectEulerProblem},
-		{number: 4, name: "Largest Palindrome Product", findSolution: largestpalindromproduct.ExecProjectEulerProblem},
-		{number: 5, name: "Smallest Multiple", findSolution: smallestmultiple.ExecProjectEulerProblem},
-		{number: 6, name: "Sum Square Difference", findSolution: sumsquaredifference.ExecProjectEulerProblem},
-		{number: 7, name: "1001ste Prime number", findSolution: xteprime.ExecProjectEulerProblem},
-		{number: 8, name: "Largest Product in a Series", findSolution: largestproductinaseries.ExecProjectEulerProblem},
-		{number: 9, name: "Special Pythagorean triplet", findSolution: specialpythagoreantriplet.ExecProjectEulerProblem},
-		{number: 10, name: "Summation of primes", findSolution: summationofprimes.ExecProjectEulerProblem},
+		{number: 2, name: "Even Fibonacci number", findSolution: problem002evenfibonaccinumbers.ExecProjectEulerProblem},
+		{number: 2, name: "Even Fibonacci number", findSolution: problem002evenfibonaccinumbers.ExecProjectEulerProblem},
+		{number: 3, name: "Largest Prim Factor", findSolution: problem003largestprimefactor.ExecProjectEulerProblem},
+		{number: 4, name: "Largest Palindrome Product", findSolution: problem004largestpalindromproduct.ExecProjectEulerProblem},
+		{number: 5, name: "Smallest Multiple", findSolution: problem005smallestmultiple.ExecProjectEulerProblem},
+		{number: 6, name: "Sum Square Difference", findSolution: problem006sumsquaredifference.ExecProjectEulerProblem},
+		{number: 7, name: "1001ste Prime number", findSolution: problem007xteprime.ExecProjectEulerProblem},
+		{number: 8, name: "Largest Product in a Series", findSolution: problem007largestproductinaseries.ExecProjectEulerProblem},
+		{number: 9, name: "Special Pythagorean triplet", findSolution: problem009specialpythagoreantriplet.ExecProjectEulerProblem},
+		{number: 10, name: "Summation of primes", findSolution: problem010summationofprimes.ExecProjectEulerProblem},
 		{number: 11, name: "Largest product in a grid", findSolution: largestproductinagrid.ExecProjectEulerProblem},
 		{number: 12, name: "Highly divisible triangular number", findSolution: highlydivisibletriangularnumber.ExecProjectEulerProblem},
 		{number: 13, name: "Large sum", findSolution: largesum.ExecProjectEulerProblem},

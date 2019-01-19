@@ -16,34 +16,34 @@ To start the whole thing, run "_projecteuler.go_" in the "_projecteuler_" direct
 
 
 ## <a href="https://projecteuler.net/problem=1">Problem 1 - Multiples of 3 and 5</a>
-See package "multiplesofxy"
+See package "problem001multiplesofxy"
 
 ## <a href="https://projecteuler.net/problem=2">Problem 2 - Even Fibonacci numbers</a>
-See package "evenfibonaccinumbers
+See package "problem002evenfibonaccinumbers
 
 ## <a href="https://projecteuler.net/problem=3">Problem 3 - Largest prime factor</a>
-See package "largestprimefactor
+See package "problem003largestprimefactor
 
 ## <a href="https://projecteuler.net/problem=4">Problem 4 - Largest palindrome product</a>
-See package "largestpalindromproduct"
+See package "problem004largestpalindromproduct"
 
 ## <a href="https://projecteuler.net/problem=5">Problem 5 - Smallest Multiple</a>
-See package "smallestmultiple"
+See package "problem005smallestmultiple"
 
 ## <a href="https://projecteuler.net/problem=6">Problem 6 - Sum square difference</a>
-See package "sumsquaredifference"
+See package "problem006sumsquaredifference"
 
 ## <a href="https://projecteuler.net/problem=7">Problem 7 - 10001st prime</a>
-See package "xteprime"
+See package "problem007xteprime"
 
 ## <a href="https://projecteuler.net/problem=8">Problem 8 - Largest product in a series</a>
-See package "largestproductinaseries"
+See package "problem008largestproductinaseries"
 
 ## <a href="https://projecteuler.net/problem=9">Problem 9 - Special Pythagorean triplet</a>
-See package "specialpythagoreantriplet"
+See package "problem009specialpythagoreantriplet"
 
 ## <a href="https://projecteuler.net/problem=10">Problem 10 - Summation of primes</a>
-See package "summationofprimes"
+See package "problem010summationofprimes"
 
 ## <a href="https://projecteuler.net/problem=11">Problem 11 - Largest product in a grid</a>
 See package "largestproductinagrid"

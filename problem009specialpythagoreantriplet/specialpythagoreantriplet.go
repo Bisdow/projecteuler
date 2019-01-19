@@ -1,4 +1,4 @@
-package specialpythagoreantriplet
+package problem009specialpythagoreantriplet
 
 import (
 	"math"

@@ -1,4 +1,4 @@
-package smallestmultiple
+package problem005smallestmultiple
 
 import "testing"
 

@@ -19,7 +19,7 @@ Gaussformel
 n = 100 => 101 * 50
 */
 
-package sumsquaredifference
+package problem006sumsquaredifference
 
 import (
 	"fmt"

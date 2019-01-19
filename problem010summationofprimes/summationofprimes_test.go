@@ -1,4 +1,4 @@
-package summationofprimes
+package problem010summationofprimes
 
 import (
 	"testing"

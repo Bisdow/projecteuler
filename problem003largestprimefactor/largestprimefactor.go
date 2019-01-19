@@ -1,4 +1,4 @@
-package largestprimefactor
+package problem003largestprimefactor
 
 import (
 	"fmt"

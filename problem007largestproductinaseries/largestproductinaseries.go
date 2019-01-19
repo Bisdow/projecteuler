@@ -1,4 +1,4 @@
-package largestproductinaseries
+package problem007largestproductinaseries
 
 import (
 	"fmt"
