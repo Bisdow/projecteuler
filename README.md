@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/Bisdow/projecteuler.svg?branch=master)](https://travis-ci.org/Bisdow/projecteuler)
 # ProjectEuler Problems
 
 Currently i am learning <a href="https://golang.org">Go</a>. To have something to play with, i try to find solutions for the problems you can find at <a href="https://projecteuler.net">Project Euler Website</a>.
