@@ -76,58 +76,58 @@ See package "problem019countingsundays"
 See package "problem020factorialdigitsum"
 
 ## <a href="https://projecteuler.net/problem=21">Problem 21 - Amicable numbers</a>
-See package "amicablenumbers"
+See package "problem021amicablenumbers"
 
 ## <a href="https://projecteuler.net/problem=22">Problem 22 - Names scores</a>
-See package "namesscores"
+See package "problem022namesscores"
 
 ## <a href="https://projecteuler.net/problem=23">Problem 23 - Non-abundant sums</a>
-See package "nonabundantsums"
+See package "problem023nonabundantsums"
 
 ## <a href="https://projecteuler.net/problem=24">Problem 24 - Lexicographic permutations</a>
-See package "lexicographicpermutations"
+See package "problem024lexicographicpermutations"
 
 ## <a href="https://projecteuler.net/problem=25">Problem 25 - 1000-digit Fibonacci number</a>
-See package "xdigitfibonaccinumber"
+See package "problem025xdigitfibonaccinumber"
 
 ## [Problem 26 - Reciprocal cycles](https://projecteuler.net/problem=26)
-See package "reciprocalcycles"
+See package "problem026reciprocalcycles"
 
 ## [Problem 27 - Quadratic primes](https://projecteuler.net/problem=27)
-See package "quadraticprimes"  
+See package "problem027quadraticprimes"  
 
 ## [Problem 28 - Number spiral diagonals](https://projecteuler.net/problem=28)
-See package "numberspiraldiagonals"
+See package "problem028numberspiraldiagonals"
 
 ## [Problem 29 - Distinct powers](https://projecteuler.net/problem=29)
-See package "distinctpowers"
+See package "problem029distinctpowers"
 
 ## [Problem 30 - Digit fifth powers](https://projecteuler.net/problem=30)
-See package "digitfifthpowers"
+See package "problem030digitfifthpowers"
 
 ## [Problem 31 - Coin sums](https://projecteuler.net/problem=31)
-See package "coinsums"
+See package "problem031coinsums"
 
 ## [Problem 32 - Pandigital products](https://projecteuler.net/problem=32)
-See package "pandigitalproducts"
+See package "problem032pandigitalproducts"
 
 ## [Problen 33 - Digit cancelling fractions](https://projecteuler.net/problem=33)
-See package "digitcancellingfractions"
+See package "problem033digitcancellingfractions"
 NOT YET IMPLEMENTED
 
 ## [Problem 34 - Digit factorials](https://projecteuler.net/problem=34)
-See package "digitfactorials"
+See package "problem034digitfactorials"
 
 ## [Problem 35 - Circular primes](https://projecteuler.net/problem=35)
-See package "circularprimes"
+See package "problem035circularprimes"
 NOT YET IMPLEMENTED
 
 ## [Problem 36 - Double-base palindromes](https://projecteuler.net/problem=36)
-See package "doublebasepalindromes"
+See package "problem036doublebasepalindromes"
 NOT YET IMPLEMENTED
 
 ## <a href="https://projecteuler.net/problem=44">Problem 44 - Pentagona numbers</a>
-See package "pentagonnumbers"
+See package "problem044pentagonnumbers"
 
 ## [Problem 67 - Maximum path sum II](https://projecteuler.net/problem=67)
-See package "maximumpathsumii"
+See package "problem067maximumpathsumii"

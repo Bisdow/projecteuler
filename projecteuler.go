@@ -7,21 +7,6 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Bisdow/projecteuler/amicablenumbers"
-	"github.com/Bisdow/projecteuler/circularprimes"
-	"github.com/Bisdow/projecteuler/coinsums"
-	"github.com/Bisdow/projecteuler/digitcancellingfractions"
-	"github.com/Bisdow/projecteuler/digitfactorials"
-	"github.com/Bisdow/projecteuler/digitfifthpowers"
-	"github.com/Bisdow/projecteuler/distinctpowers"
-	"github.com/Bisdow/projecteuler/doublebasepalindromes"
-	"github.com/Bisdow/projecteuler/lexicographicpermutations"
-	"github.com/Bisdow/projecteuler/maximumpathsumii"
-	"github.com/Bisdow/projecteuler/namesscores"
-	"github.com/Bisdow/projecteuler/nonabundantsums"
-	"github.com/Bisdow/projecteuler/numberspiraldiagonals"
-	"github.com/Bisdow/projecteuler/pandigitalproducts"
-	"github.com/Bisdow/projecteuler/pentagonnumbers"
 	problem001 "github.com/Bisdow/projecteuler/problem001multiplesofxy"
 	"github.com/Bisdow/projecteuler/problem002evenfibonaccinumbers"
 	"github.com/Bisdow/projecteuler/problem003largestprimefactor"
@@ -42,9 +27,24 @@ import (
 	"github.com/Bisdow/projecteuler/problem018maximumpathsumi"
 	"github.com/Bisdow/projecteuler/problem019countingsundays"
 	"github.com/Bisdow/projecteuler/problem020factorialdigitsum"
-	"github.com/Bisdow/projecteuler/quadraticprimes"
-	"github.com/Bisdow/projecteuler/reciprocalcycles"
-	"github.com/Bisdow/projecteuler/xdigitfibonaccinumber"
+	"github.com/Bisdow/projecteuler/problem021amicablenumbers"
+	"github.com/Bisdow/projecteuler/problem022namesscores"
+	"github.com/Bisdow/projecteuler/problem023nonabundantsums"
+	"github.com/Bisdow/projecteuler/problem024lexicographicpermutations"
+	"github.com/Bisdow/projecteuler/problem025xdigitfibonaccinumber"
+	"github.com/Bisdow/projecteuler/problem026reciprocalcycles"
+	"github.com/Bisdow/projecteuler/problem027quadraticprimes"
+	"github.com/Bisdow/projecteuler/problem028numberspiraldiagonals"
+	"github.com/Bisdow/projecteuler/problem029distinctpowers"
+	"github.com/Bisdow/projecteuler/problem030digitfifthpowers"
+	"github.com/Bisdow/projecteuler/problem031coinsums"
+	"github.com/Bisdow/projecteuler/problem032pandigitalproducts"
+	"github.com/Bisdow/projecteuler/problem033digitcancellingfractions"
+	"github.com/Bisdow/projecteuler/problem034digitfactorials"
+	"github.com/Bisdow/projecteuler/problem035circularprimes"
+	"github.com/Bisdow/projecteuler/problem036doublebasepalindromes"
+	"github.com/Bisdow/projecteuler/problem044pentagonnumbers"
+	"github.com/Bisdow/projecteuler/problem067maximumpathsumii"
 )
 
 type EulerProblem struct {
@@ -76,24 +76,24 @@ func getEulerProblems() []EulerProblem {
 		{number: 18, name: "Maximum path sum I", findSolution: problem018maximumpathsumi.ExecProjectEulerProblem},
 		{number: 19, name: "Counting Sundays", findSolution: problem019countingsundays.ExecProjectEulerProblem},
 		{number: 20, name: "Factorial digit sum", findSolution: problem020factorialdigitsum.ExecProjectEulerProblem},
-		{number: 21, name: "Amicable numbers", findSolution: amicablenumbers.ExecProjectEulerProblem},
-		{number: 22, name: "Names scores", findSolution: namesscores.ExecProjectEulerProblem},
-		{number: 23, name: "Non-abundant sums", findSolution: nonabundantsums.ExecProjectEulerProblem},
-		{number: 24, name: "Lexicographic permutations", findSolution: lexicographicpermutations.ExecProjectEulerProblem},
-		{number: 25, name: "1000-digit Fibonacci number", findSolution: xdigitfibonaccinumber.ExecProjectEulerProblem},
-		{number: 26, name: "Reciprocal cycles", findSolution: reciprocalcycles.ExecProjectEulerProblem},
-		{number: 27, name: "Quadratic primes", findSolution: quadraticprimes.ExecProjectEulerProblem},
-		{number: 28, name: "Number spiral diagonals", findSolution: numberspiraldiagonals.ExecProjectEulerProblem},
-		{number: 29, name: "Distinct powers", findSolution: distinctpowers.ExecProjectEulerProblem},
-		{number: 30, name: "Digit fifth powers", findSolution: digitfifthpowers.ExecProjectEulerProblem},
-		{number: 31, name: "Coin sums", findSolution: coinsums.ExecProjectEulerProblem},
-		{number: 32, name: "Pandigital products", findSolution: pandigitalproducts.ExecProjectEulerProblem},
-		{number: 33, name: "Digital cancelling fractions", findSolution: digitcancellingfractions.ExecProjectEulerProblem},
-		{number: 34, name: "Digit factorials", findSolution: digitfactorials.ExecProjectEulerProblem},
-		{number: 35, name: "Circular primes", findSolution: circularprimes.ExecProjectEulerProblem},
-		{number: 36, name: "Double-base palindromes", findSolution: doublebasepalindromes.ExecProjectEulerProblem},
-		{number: 44, name: "Pentagon numbers", findSolution: pentagonnumbers.ExecProjectEulerProblem},
-		{number: 67, name: " Maximum path sum II", findSolution: maximumpathsumii.ExecProjectEulerProblem}}
+		{number: 21, name: "Amicable numbers", findSolution: problem021amicablenumbers.ExecProjectEulerProblem},
+		{number: 22, name: "Names scores", findSolution: problem022namesscores.ExecProjectEulerProblem},
+		{number: 23, name: "Non-abundant sums", findSolution: problem023nonabundantsums.ExecProjectEulerProblem},
+		{number: 24, name: "Lexicographic permutations", findSolution: problem024lexicographicpermutations.ExecProjectEulerProblem},
+		{number: 25, name: "1000-digit Fibonacci number", findSolution: problem025xdigitfibonaccinumber.ExecProjectEulerProblem},
+		{number: 26, name: "Reciprocal cycles", findSolution: problem026reciprocalcycles.ExecProjectEulerProblem},
+		{number: 27, name: "Quadratic primes", findSolution: problem027quadraticprimes.ExecProjectEulerProblem},
+		{number: 28, name: "Number spiral diagonals", findSolution: problem028numberspiraldiagonals.ExecProjectEulerProblem},
+		{number: 29, name: "Distinct powers", findSolution: problem029distinctpowers.ExecProjectEulerProblem},
+		{number: 30, name: "Digit fifth powers", findSolution: problem030digitfifthpowers.ExecProjectEulerProblem},
+		{number: 31, name: "Coin sums", findSolution: problem031coinsums.ExecProjectEulerProblem},
+		{number: 32, name: "Pandigital products", findSolution: problem032pandigitalproducts.ExecProjectEulerProblem},
+		{number: 33, name: "Digital cancelling fractions", findSolution: problem033digitcancellingfractions.ExecProjectEulerProblem},
+		{number: 34, name: "Digit factorials", findSolution: problem034digitfactorials.ExecProjectEulerProblem},
+		{number: 35, name: "Circular primes", findSolution: problem035circularprimes.ExecProjectEulerProblem},
+		{number: 36, name: "Double-base palindromes", findSolution: problem036doublebasepalindromes.ExecProjectEulerProblem},
+		{number: 44, name: "Pentagon numbers", findSolution: problem044pentagonnumbers.ExecProjectEulerProblem},
+		{number: 67, name: " Maximum path sum II", findSolution: problem067maximumpathsumii.ExecProjectEulerProblem}}
 }
 
 func main() {
