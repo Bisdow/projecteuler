@@ -11,8 +11,8 @@ func ParseInt(value int) []int {
 	str := strconv.Itoa(value)
 	var result []int
 	for i := 0; i < len(str); i++ {
-		value, error := strconv.Atoi(str[i : i+1])
-		if error != nil {
+		value, err := strconv.Atoi(str[i : i+1])
+		if err != nil {
 			println("FEHLER")
 		}
 		result = append(result, value)

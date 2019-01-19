@@ -1,7 +1,6 @@
 package problem019countingsundays
 
 import (
-	"fmt"
 	"testing"
 )
 
@@ -50,7 +49,7 @@ func TestIsLeapYear(t *testing.T) {
 func checkIsLeapYear(input int, expected bool, t *testing.T) {
 	result := isLeapYear(input)
 	if result != expected {
-		fmt.Println("Input: ", input, "Result: ", result, "Expected: ", expected)
+		t.Error("Input: ", input, "Result: ", result, "Expected: ", expected)
 	}
 }
 

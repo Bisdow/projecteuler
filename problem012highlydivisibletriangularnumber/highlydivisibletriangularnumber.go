@@ -2,8 +2,6 @@ package problem012highlydivisibletriangularnumber
 
 import (
 	"fmt"
-	"math"
-
 	"github.com/Bisdow/projecteuler/tools/mathtools"
 )
 
@@ -30,21 +28,4 @@ func Highlydivisibletriangularnumber(divisorTarget int) int {
 func amountOfDivisorsOf(value int) int {
 	divisors := mathtools.FindDivisorsOf(value)
 	return len(divisors)
-}
-
-func elementInList(element int, list []int) bool {
-	for i := 0; i < len(list); i++ {
-		if list[i] == element {
-			return true
-		}
-	}
-	return false
-}
-
-func getMaxDividable(triangleSum int) int {
-	return int(math.Sqrt(float64(triangleSum)))
-}
-
-func lastElement(arr []int) int {
-	return arr[len(arr)-1]
 }

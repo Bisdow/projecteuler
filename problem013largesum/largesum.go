@@ -28,8 +28,8 @@ func createSumArray(werte []string) []int {
 		// Gehe über alle Strings, und summiere das jeweilige Digit des Strings mit den anderen
 		sum := 0
 		for y := 0; y < len(werte); y++ {
-			value, error := strconv.Atoi(werte[y][x : x+1])
-			if error != nil {
+			value, err := strconv.Atoi(werte[y][x : x+1])
+			if err != nil {
 				fmt.Printf("Fehler bei Konvertierung Digit zu INT")
 			}
 			sum += value

@@ -36,12 +36,12 @@ func findMaximumTotal(triangle [][]int) int {
 }
 
 func calcNextLevel(base []int, next []int) []int {
-	var len = len(next)
+	var length = len(next)
 	var result []int
-	for i := 0; i < len; i++ {
+	for i := 0; i < length; i++ {
 		if i == 0 {
 			result = append(result, base[i]+next[i])
-		} else if i == len-1 {
+		} else if i == length-1 {
 			result = append(result, base[i-1]+next[i])
 		} else {
 			left := base[i-1] + next[i]
@@ -59,7 +59,10 @@ func calcNextLevel(base []int, next []int) []int {
 func readDataAndPrepare(filename string) [][]int {
 	f, err := os.Open(filename)
 	check(err)
-	defer f.Close()
+	defer func() {
+		err = f.Close()
+		check(err)
+	}()
 
 	var triangle [][]int
 

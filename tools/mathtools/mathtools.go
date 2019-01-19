@@ -58,7 +58,3 @@ func Factorial(value uint64) uint64 {
 func getMaxDividable(triangleSum int) int {
 	return int(math.Sqrt(float64(triangleSum)))
 }
-
-func lastElement(arr []int) int {
-	return arr[len(arr)-1]
-}
