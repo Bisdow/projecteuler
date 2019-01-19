@@ -1,4 +1,4 @@
-package highlydivisibletriangularnumber
+package problem012highlydivisibletriangularnumber
 
 import (
 	"fmt"

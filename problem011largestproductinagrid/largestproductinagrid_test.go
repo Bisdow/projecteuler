@@ -1,4 +1,4 @@
-package largestproductinagrid
+package problem011largestproductinagrid
 
 import "testing"
 

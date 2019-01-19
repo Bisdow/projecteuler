@@ -1,4 +1,4 @@
-package largestproductinagrid
+package problem011largestproductinagrid
 
 // ExecProjectEulerProblem - Execute Problem 11
 func ExecProjectEulerProblem() {

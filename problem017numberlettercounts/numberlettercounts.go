@@ -1,4 +1,4 @@
-package numberlettercounts
+package problem017numberlettercounts
 
 func ExecProjectEulerProblem() {
 	const numberLimit = 1000

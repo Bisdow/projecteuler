@@ -1,4 +1,4 @@
-package countingsundays
+package problem019countingsundays
 
 import (
 	"fmt"

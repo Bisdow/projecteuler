@@ -46,34 +46,34 @@ See package "problem009specialpythagoreantriplet"
 See package "problem010summationofprimes"
 
 ## <a href="https://projecteuler.net/problem=11">Problem 11 - Largest product in a grid</a>
-See package "largestproductinagrid"
+See package "problem011largestproductinagrid"
 
 ## <a href="Highly divisible triangular number">Problem 12 - Highly divisible triangular number</a>
-See package "highlydivisibletriangularnumber"
+See package "problem012highlydivisibletriangularnumber"
 
 ## <a href="https://projecteuler.net/problem=13">Problem 13 - Large sum</a>
-See package "largesum"
+See package "problem013largesum"
 
 ## <a href="https://projecteuler.net/problem=14">Problem 14 - Longest Collatz sequence</a>
-See package "longestcollatzsequence"
+See package "problem014longestcollatzsequence"
 
 ## <a href="https://projecteuler.net/problem=15">Problem 15 - Lattice paths</a>
-See algorithm in "latticepath" in result.md
+See algorithm in "problem015latticepath" in result.md
 
 ## <a href="https://projecteuler.net/problem=16">Problem 16 - Power digit sum</a>
-See package "powerdigitsum"
+See package "problem016powerdigitsum"
 
 ## <a href="https://projecteuler.net/problem=17">Problem 17 - Number letter counts</a>
-See package "numberlettercounts"
+See package "problem017numberlettercounts"
 
 ## <a href="https://projecteuler.net/problem=18">Problem 18 - Maximum path sum I</a>
-See package "maximumpathsumi"
+See package "problem018maximumpathsumi"
 
 ## <a href="https://projecteuler.net/problem=19">Problem 19 - Counting Sundays</a>
-See package "countingsundays"
+See package "problem019countingsundays"
 
 ## <a href="https://projecteuler.net/problem=20">Problem 20 - Factorial Digit sum</a>
-See package "factorialdigitsum"
+See package "problem020factorialdigitsum"
 
 ## <a href="https://projecteuler.net/problem=21">Problem 21 - Amicable numbers</a>
 See package "amicablenumbers"

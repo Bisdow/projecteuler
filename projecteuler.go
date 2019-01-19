@@ -10,28 +10,18 @@ import (
 	"github.com/Bisdow/projecteuler/amicablenumbers"
 	"github.com/Bisdow/projecteuler/circularprimes"
 	"github.com/Bisdow/projecteuler/coinsums"
-	"github.com/Bisdow/projecteuler/countingsundays"
 	"github.com/Bisdow/projecteuler/digitcancellingfractions"
 	"github.com/Bisdow/projecteuler/digitfactorials"
 	"github.com/Bisdow/projecteuler/digitfifthpowers"
 	"github.com/Bisdow/projecteuler/distinctpowers"
 	"github.com/Bisdow/projecteuler/doublebasepalindromes"
-	"github.com/Bisdow/projecteuler/factorialdigitsum"
-	"github.com/Bisdow/projecteuler/highlydivisibletriangularnumber"
-	"github.com/Bisdow/projecteuler/largestproductinagrid"
-	"github.com/Bisdow/projecteuler/largesum"
-	"github.com/Bisdow/projecteuler/latticepath"
 	"github.com/Bisdow/projecteuler/lexicographicpermutations"
-	"github.com/Bisdow/projecteuler/longestcollatzsequence"
-	"github.com/Bisdow/projecteuler/maximumpathsumi"
 	"github.com/Bisdow/projecteuler/maximumpathsumii"
 	"github.com/Bisdow/projecteuler/namesscores"
 	"github.com/Bisdow/projecteuler/nonabundantsums"
-	"github.com/Bisdow/projecteuler/numberlettercounts"
 	"github.com/Bisdow/projecteuler/numberspiraldiagonals"
 	"github.com/Bisdow/projecteuler/pandigitalproducts"
 	"github.com/Bisdow/projecteuler/pentagonnumbers"
-	"github.com/Bisdow/projecteuler/powerdigitsum"
 	problem001 "github.com/Bisdow/projecteuler/problem001multiplesofxy"
 	"github.com/Bisdow/projecteuler/problem002evenfibonaccinumbers"
 	"github.com/Bisdow/projecteuler/problem003largestprimefactor"
@@ -42,6 +32,16 @@ import (
 	"github.com/Bisdow/projecteuler/problem007xteprime"
 	"github.com/Bisdow/projecteuler/problem009specialpythagoreantriplet"
 	"github.com/Bisdow/projecteuler/problem010summationofprimes"
+	"github.com/Bisdow/projecteuler/problem011largestproductinagrid"
+	"github.com/Bisdow/projecteuler/problem012highlydivisibletriangularnumber"
+	"github.com/Bisdow/projecteuler/problem013largesum"
+	"github.com/Bisdow/projecteuler/problem014longestcollatzsequence"
+	"github.com/Bisdow/projecteuler/problem015latticepath"
+	"github.com/Bisdow/projecteuler/problem016powerdigitsum"
+	"github.com/Bisdow/projecteuler/problem017numberlettercounts"
+	"github.com/Bisdow/projecteuler/problem018maximumpathsumi"
+	"github.com/Bisdow/projecteuler/problem019countingsundays"
+	"github.com/Bisdow/projecteuler/problem020factorialdigitsum"
 	"github.com/Bisdow/projecteuler/quadraticprimes"
 	"github.com/Bisdow/projecteuler/reciprocalcycles"
 	"github.com/Bisdow/projecteuler/xdigitfibonaccinumber"
@@ -66,16 +66,16 @@ func getEulerProblems() []EulerProblem {
 		{number: 8, name: "Largest Product in a Series", findSolution: problem007largestproductinaseries.ExecProjectEulerProblem},
 		{number: 9, name: "Special Pythagorean triplet", findSolution: problem009specialpythagoreantriplet.ExecProjectEulerProblem},
 		{number: 10, name: "Summation of primes", findSolution: problem010summationofprimes.ExecProjectEulerProblem},
-		{number: 11, name: "Largest product in a grid", findSolution: largestproductinagrid.ExecProjectEulerProblem},
-		{number: 12, name: "Highly divisible triangular number", findSolution: highlydivisibletriangularnumber.ExecProjectEulerProblem},
-		{number: 13, name: "Large sum", findSolution: largesum.ExecProjectEulerProblem},
-		{number: 14, name: "Longest Collatz Sequence", findSolution: longestcollatzsequence.ExecProjectEulerProblem},
-		{number: 15, name: "Lattice paths", findSolution: latticepath.ExecProjectEulerProblem},
-		{number: 16, name: "Power digit sum", findSolution: powerdigitsum.ExecProjectEulerProblem},
-		{number: 17, name: "Number letter counts", findSolution: numberlettercounts.ExecProjectEulerProblem},
-		{number: 18, name: "Maximum path sum I", findSolution: maximumpathsumi.ExecProjectEulerProblem},
-		{number: 19, name: "Counting Sundays", findSolution: countingsundays.ExecProjectEulerProblem},
-		{number: 20, name: "Factorial digit sum", findSolution: factorialdigitsum.ExecProjectEulerProblem},
+		{number: 11, name: "Largest product in a grid", findSolution: problem011largestproductinagrid.ExecProjectEulerProblem},
+		{number: 12, name: "Highly divisible triangular number", findSolution: problem012highlydivisibletriangularnumber.ExecProjectEulerProblem},
+		{number: 13, name: "Large sum", findSolution: problem013largesum.ExecProjectEulerProblem},
+		{number: 14, name: "Longest Collatz Sequence", findSolution: problem014longestcollatzsequence.ExecProjectEulerProblem},
+		{number: 15, name: "Lattice paths", findSolution: problem015latticepath.ExecProjectEulerProblem},
+		{number: 16, name: "Power digit sum", findSolution: problem016powerdigitsum.ExecProjectEulerProblem},
+		{number: 17, name: "Number letter counts", findSolution: problem017numberlettercounts.ExecProjectEulerProblem},
+		{number: 18, name: "Maximum path sum I", findSolution: problem018maximumpathsumi.ExecProjectEulerProblem},
+		{number: 19, name: "Counting Sundays", findSolution: problem019countingsundays.ExecProjectEulerProblem},
+		{number: 20, name: "Factorial digit sum", findSolution: problem020factorialdigitsum.ExecProjectEulerProblem},
 		{number: 21, name: "Amicable numbers", findSolution: amicablenumbers.ExecProjectEulerProblem},
 		{number: 22, name: "Names scores", findSolution: namesscores.ExecProjectEulerProblem},
 		{number: 23, name: "Non-abundant sums", findSolution: nonabundantsums.ExecProjectEulerProblem},

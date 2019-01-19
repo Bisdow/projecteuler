@@ -1,4 +1,4 @@
-package numberlettercounts
+package problem017numberlettercounts
 
 import "testing"
 

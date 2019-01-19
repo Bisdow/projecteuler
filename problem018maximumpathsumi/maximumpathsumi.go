@@ -1,4 +1,4 @@
-package maximumpathsumi
+package problem018maximumpathsumi
 
 import "fmt"
 

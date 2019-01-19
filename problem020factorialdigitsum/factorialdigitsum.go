@@ -1,4 +1,4 @@
-package factorialdigitsum
+package problem020factorialdigitsum
 
 import (
 	"github.com/Bisdow/projecteuler/tools/bignumbers"

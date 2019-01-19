@@ -1,4 +1,4 @@
-package factorialdigitsum
+package problem020factorialdigitsum
 
 import (
 	"testing"

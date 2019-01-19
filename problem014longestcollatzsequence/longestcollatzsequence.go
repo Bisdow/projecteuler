@@ -1,4 +1,4 @@
-package longestcollatzsequence
+package problem014longestcollatzsequence
 
 import "fmt"
 

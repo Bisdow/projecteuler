@@ -1,4 +1,4 @@
-package powerdigitsum
+package problem016powerdigitsum
 
 import (
 	"github.com/Bisdow/projecteuler/tools/bignumbers"
